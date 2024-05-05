@@ -1,0 +1,18 @@
+.print:hover{
+    cursor: pointer;
+}
+
+span {
+    color: blue;
+    text-decoration: wavy;
+}
+
+.hidden {
+    display: none;
+}
+
+@media print {
+    .hidden {
+        display:block;
+    }
+}
